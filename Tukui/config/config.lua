@@ -235,8 +235,8 @@ TukuiCF["chat"] = {
 
 TukuiCF["tooltip"] = {
 	["enable"] = true,                     -- true to enable this mod, false to disable
-		["hidecombat"] = true,                -- hide bottom-right tooltip when in combat
-		["hidecombatraid"] = true,				-- only hide in combat in a raid instance
+		["hidecombat"] = false,                -- hide bottom-right tooltip when in combat
+		["hidecombatraid"] = false,				-- only hide in combat in a raid instance
 		["hidebuttons"] = false,               -- always hide action bar buttons tooltip.
 		["hideuf"] = false,                    -- hide tooltip on unitframes
 		["cursor"] = false,                    -- show anchored to cursor
