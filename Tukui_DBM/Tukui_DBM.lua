@@ -62,7 +62,7 @@ local function SkinBars(self)
 
 				if not frame.styled then
 					bar.frame:SetScale(1)
-					frame:SetHeight(TukuiDB.buttonsize/3)
+					frame:SetHeight(TukuiDB.buttonsize/2)
 					TukuiDB.SetTemplate(bar.frame)
 					frame.styled=true
 				end
